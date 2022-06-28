@@ -1,11 +1,33 @@
-header {
+head {
 
-	background-color: #0464A5;
+	background-color: rgb(31,97,141,0.5);
+	color: #0464A5;
 	margin: 0 auto;
+	font-family: 'Dancing Script', cursive;
 }
 
 body{
 	
-	background-color: blue;
+	background-color: lightpink;
 	margin: 0 auto;
+}
+
+ul.nav {
+  margin: 0 auto;
+  padding-left: 0px;
+  background-color: rgb(31,97,141,0.8);
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+  font-size: 40px;
+}
+ul.nav > li {
+  display: inline-block;
+  padding: 10px 20px;
+}
+ul.nav > li:hover {
+  background-color: cadetblue;
+}
+ul.nav > li > a {
+  color: white;
+  text-decoration: none;
 }
