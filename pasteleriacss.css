@@ -13,7 +13,8 @@ body{
 }
 
 ul.nav {
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
   padding-left: 0px;
   background-color: rgb(31,97,141,0.8);
   text-align: center;
@@ -22,7 +23,9 @@ ul.nav {
 }
 ul.nav > li {
   display: inline-block;
-  padding: 10px 20px;
+  margin: auto;
+  padding-top: 0px;
+  padding-right: 20px;
 }
 ul.nav > li:hover {
   background-color: cadetblue;
@@ -30,4 +33,10 @@ ul.nav > li:hover {
 ul.nav > li > a {
   color: white;
   text-decoration: none;
+}
+
+ul.nav > li > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
