@@ -34,7 +34,7 @@ ul.nav > li > a {
   text-decoration: none;
 }
 
-ul.nav > li > img {
+ul.nav > li > a > img {
   margin: auto;
   vertical-align: bottom;
   max-height: 100px;
