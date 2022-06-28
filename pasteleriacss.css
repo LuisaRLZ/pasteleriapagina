@@ -40,3 +40,27 @@ ul.nav > li > a > img {
   max-height: 100px;
   max-width: 100px;
 }
+
+ul.footerlist > li > a {
+  font-size: 20px;
+  margin: auto;
+  color: white;
+  text-decoration: none;}
+
+ul.footerlist > li > a > img {
+  margin: auto;
+  vertical-align: middle;
+  max-height: 20px;
+  max-width: 20px;}
+
+footer {
+
+	background-color: rgb(31,97,141);
+
+}
+
+footer h1 {
+
+color: white;
+
+}
