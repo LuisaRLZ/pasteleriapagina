@@ -10,6 +10,25 @@ body{
 	margin: 0 auto;
   align-content: center;
   text-align: center;
+  color: #92577A;
+  font-family: 'Arima', cursive;
+  font-family: 'Rubik', sans-serif;
+}
+
+body h1 {
+
+font-size: 35px;
+color: #92577A;
+font-family: 'Arima', cursive;
+
+}
+
+body h2 {
+
+font-size: 25px;
+color: #92577A;
+font-family: 'Arima', cursive;
+
 }
 
 iframe{
