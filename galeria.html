@@ -33,113 +33,24 @@
 </head>
 
 	<body>
-<div class="container">
 
-   <h1 class="heading">¿Que diseño buscas?</h1>
-
-   <input type="text" placeholder="Busca un diseño" id="search-box">
-
-   <div class="image-container">
-
-      <div class="image" data-title="cute">
-         <img src="images/cute-1.jpg" alt="">
-         <h3>cute animal</h3>
-      </div>
-
-      <div class="image" data-title="car">
-         <img src="images/car-1.jpg" alt="">
-         <h3>modern car</h3>
-      </div>
-
-      <div class="image" data-title="food">
-         <img src="images/food-1.jpg" alt="">
-         <h3>tasty food</h3>
-      </div>
-
-      <div class="image" data-title="city">
-         <img src="images/city-1.jpg" alt="">
-         <h3>huge city</h3>
-      </div>
-
-      <div class="image" data-title="food">
-         <img src="images/food-2.jpg" alt="">
-         <h3>tasty food</h3>
-      </div>
-
-      <div class="image" data-title="car">
-         <img src="images/car-2.jpg" alt="">
-         <h3>modern car</h3>
-      </div>
-
-      <div class="image" data-title="cute">
-         <img src="images/cute-2.jpg" alt="">
-         <h3>cute animal</h3>
-      </div>
-
-      <div class="image" data-title="food">
-         <img src="images/food-3.jpg" alt="">
-         <h3>tasty food</h3>
-      </div>
-
-      <div class="image" data-title="cute">
-         <img src="images/cute-3.jpg" alt="">
-         <h3>cute animal</h3>
-      </div>
-
-   </div>
-
-</div>
-
-<script>
-
-let searchBox = document.querySelector('#search-box');
-let images = document.querySelectorAll('.container .image-container .image');
-
-searchBox.oninput = () =>{
-   images.forEach(hide => hide.style.display = 'none');
-   let value = searchBox.value;
-   images.forEach(filter =>{
-      let title = filter.getAttribute('data-title');
-      if(value == title){
-         filter.style.display = 'block';
-      }
-      if(searchBox.value == ''){
-         filter.style.display = 'block';
-      }
-   });
-};
-
-</script>
-<!-- Messenger Plugin de chat Code -->
-    <div id="fb-root"></div>
-
-    <!-- Your Plugin de chat code -->
-    <div id="fb-customer-chat" class="fb-customerchat">
+<section>
+  <div class="pic-container">
+    <div class="pic-row">
+      <img src="albums/portada album pasteleria bautizo.png">
+      <img src="albums/album pasteleria bautizo pagina 1.png">
+      <img src="albums/album pasteleria bautizo pagina 2.png">
+      <img src="albums/album pasteleria bautizo pagina 3.png">
+      <img src="albums/album pasteleria bautizo pagina 4.png">
+      <img src="albums/album pasteleria bautizo pagina 5.png">
+      <img src="albums/album pasteleria bautizo pagina 6.png">
+      <img src="albums/album pasteleria bautizo pagina 7.png">
+      <img src="albums/album pasteleria bautizo pagina 8.png">
+      <img src="albums/album pasteleria bautizo pagina 9.png">
     </div>
+  </div>
+</section>
 
-    <script>
-      var chatbox = document.getElementById('fb-customer-chat');
-      chatbox.setAttribute("page_id", "125685324789120");
-      chatbox.setAttribute("attribution", "biz_inbox");
-    </script>
-
-    <!-- Your SDK code -->
-    <script>
-      window.fbAsyncInit = function() {
-        FB.init({
-          xfbml            : true,
-          version          : 'v14.0'
-        });
-      };
-
-      (function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = 'https://connect.facebook.net/es_ES/sdk/xfbml.customerchat.js';
-        fjs.parentNode.insertBefore(js, fjs);
-      }(document, 'script', 'facebook-jssdk'));
-    </script>
 	</body>
 
 <footer>
