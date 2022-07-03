@@ -8,6 +8,15 @@ body{
 	
 	background-color: lightpink;
 	margin: 0 auto;
+  align-content: center;
+  text-align: center;
+}
+
+iframe{
+
+  display: block;
+  align-content: center;
+  text-align: center;
 }
 
 ul.nav {
@@ -84,3 +93,4 @@ footer p {
 color: white;
 
 }
+
