@@ -44,8 +44,6 @@ ul.nav {
   text-align: center;
   font-family: 'Dancing Script', cursive;
   font-size: 35px;
-  font-size: 4vw;
-  position: fixed;
 }
 ul.nav > li {
   height: 100px;
