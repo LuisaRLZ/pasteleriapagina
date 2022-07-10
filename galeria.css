@@ -91,7 +91,7 @@ color: white;
 
 section {
   /* The width of your document, I suppose */
-  width:800px;
+  width: device-width;
   margin: 0 auto;
   white-space:nowrap; 
   overflow: scroll;
