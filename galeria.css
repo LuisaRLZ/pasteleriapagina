@@ -91,7 +91,7 @@ color: white;
 
 section {
   /* The width of your document, I suppose */
-  width:600px;
+  width:800px;
   margin: 0 auto;
   white-space:nowrap; 
   overflow: scroll;
@@ -99,4 +99,10 @@ section {
 .pic-container {
  /* As large as it needs to be */
   width: 300px;
+}
+
+section img {
+
+max-width: 300px;
+
 }
